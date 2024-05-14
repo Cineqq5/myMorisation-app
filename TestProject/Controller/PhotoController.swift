@@ -35,7 +35,7 @@ class PhotoController: UIViewController, UINavigationControllerDelegate {
         }
 
         func addCancelAction() {
-            let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
             actionSheet.addAction(cancelAction)
         }
 

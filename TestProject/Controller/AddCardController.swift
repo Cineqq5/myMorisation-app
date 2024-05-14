@@ -37,25 +37,32 @@ class AddCardController: UIViewController {
         showImagePickerOptions()
     }
     @IBAction func buttonClicked(_ sender: UIButton) {
-        if(sender.titleLabel?.text! == "Submit"){
-            let imageBase64 = self.image.image?.base64 ?? ""
-            if(!cardExists){
-                let flashCard = FlashCard(i: 0, q: toTranslateField.text ?? "", a: translatedField.text ?? "", i64: imageBase64)
-                let flashCardManager = FlashCardManager()
-                flashCardManager.createCard(flashCard: flashCard, imageBase64: imageBase64)
-            } else {
-                let flashCard = FlashCard(i: id, q: toTranslateField.text ?? "", a: translatedField.text ?? "", i64: imageBase64)
-                let flashCardManager = FlashCardManager()
-                flashCardManager.updateCard(flashCard: flashCard, imageBase64: imageBase64)
-            }
-        }
-        if(sender.titleLabel?.text! == "Delete"){
+//        print(sender.localeKey)
+//        print(sender.localeKey?.localized)
+//        if(sender.localeKey == "Submit"){
+        let imageBase64 = self.image.image?.base64 ?? ""
+        if(!cardExists){
+            let flashCard = FlashCard(i: 0, q: toTranslateField.text ?? "", a: translatedField.text ?? "", i64: imageBase64)
             let flashCardManager = FlashCardManager()
-            flashCardManager.deleteCard(cardId: id)
+            flashCardManager.createCard(flashCard: flashCard, imageBase64: imageBase64)
+        } else {
+            let flashCard = FlashCard(i: id, q: toTranslateField.text ?? "", a: translatedField.text ?? "", i64: imageBase64)
+            let flashCardManager = FlashCardManager()
+            flashCardManager.updateCard(flashCard: flashCard, imageBase64: imageBase64)
         }
+//        }
+//        if(sender.titleLabel?.text! == "Delete"){
+//            let flashCardManager = FlashCardManager()
+//            flashCardManager.deleteCard(cardId: id)
+//        }
         performSegueToReturnBack()
     }
 
+    @IBAction func deleteButtonClicked(_ sender: UIButton) {
+        let flashCardManager = FlashCardManager()
+        flashCardManager.deleteCard(cardId: id)
+        performSegueToReturnBack()
+    }
 }
 
 extension AddCardController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
@@ -65,9 +72,9 @@ extension AddCardController: UIImagePickerControllerDelegate, UINavigationContro
         return imagePicker
     }
     func showImagePickerOptions(){
-        let alertVC = UIAlertController(title: "Pick a Photo", message: "Choose a picture from Library or camera", preferredStyle: .actionSheet)
+        let alertVC = UIAlertController(title: NSLocalizedString("Pick_a_Photo", comment: ""), message: NSLocalizedString("Choose_source", comment: ""), preferredStyle: .actionSheet)
         
-        let cameraAction = UIAlertAction(title: "Camera", style: .default) { [weak self] (action) in
+        let cameraAction = UIAlertAction(title: NSLocalizedString("Camera", comment: ""), style: .default) { [weak self] (action) in
             guard let self = self else {
                 return
             }
@@ -78,7 +85,7 @@ extension AddCardController: UIImagePickerControllerDelegate, UINavigationContro
             }
 
         }
-        let libraryAction = UIAlertAction(title: "Library", style: .default){ [weak self] (action) in
+        let libraryAction = UIAlertAction(title: NSLocalizedString("Library", comment: ""), style: .default){ [weak self] (action) in
             guard let self = self else {
                 return
             }
@@ -88,13 +95,13 @@ extension AddCardController: UIImagePickerControllerDelegate, UINavigationContro
                 
             }
         }
-        let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { [weak self] (action) in
+        let deleteAction = UIAlertAction(title: NSLocalizedString("Delete", comment: ""), style: .destructive) { [weak self] (action) in
             guard let self = self else {
                 return
             }
             self.image.image = nil
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil)
         
         
         alertVC.addAction(cameraAction)

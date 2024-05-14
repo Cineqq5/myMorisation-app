@@ -62,17 +62,24 @@ class ViewController: UIViewController {
         cards.removeAll { flashCard in
             element.id == flashCard.id
         }
-        if(sender.titleLabel?.text! == "Correct"){
-            flashCardManager.cardReviewed(cardId: element.id, result: ResultType.SUCCESS)
-        }
-        else{
-            flashCardManager.cardReviewed(cardId: element.id, result: ResultType.FAIL)
-        }
+//        if(sender.titleLabel?.text! == "Correct"){
+        flashCardManager.cardReviewed(cardId: element.id, result: ResultType.SUCCESS)
+//        }
+//        else{
+//            flashCardManager.cardReviewed(cardId: element.id, result: ResultType.FAIL)
+//        }
         resetView()
 //            self.dismiss(animated: true, completion: nil)
     }
     
-
+    @IBAction func incorrectButtonPressed(_ sender: UIButton) {
+        cards.removeAll { flashCard in
+            element.id == flashCard.id
+        }
+        flashCardManager.cardReviewed(cardId: element.id, result: ResultType.FAIL)
+        resetView()
+    }
+    
     
     override func viewWillDisappear(_ animated: Bool) {
         flashCardManager.updateProgress()

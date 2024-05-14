@@ -35,6 +35,57 @@
         }
       }
     },
+    "Camera" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrób zdjęcie"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
+          }
+        }
+      }
+    },
+    "Choose_source" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a picture from Library or camera"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz zdjęcie z galerii lub zrób zdjęcie"
+          }
+        }
+      }
+    },
     "Correct" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -82,6 +133,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niepoprawna odpowiedź"
+          }
+        }
+      }
+    },
+    "Library" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Library"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeria zdjęć"
           }
         }
       }
@@ -235,6 +303,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdjęcie"
+          }
+        }
+      }
+    },
+    "Pick_a_Photo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a Photo"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz zdjęcie"
           }
         }
       }

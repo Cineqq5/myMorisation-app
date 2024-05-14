@@ -35,7 +35,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZGF-pC-mdz" userLabel="Login Field">
                                                 <rect key="frame" x="54" y="90" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                             </textField>
@@ -52,26 +52,12 @@
                                                 <rect key="frame" x="54" y="175" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" systemColor="tableCellBlueTextColor"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5l-Xe-dg7" userLabel="Login" propertyAccessControl="all">
-                                                <rect key="frame" x="308" y="217" width="66" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Log_in"/>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="loginButtonClicked:" destination="kLT-Wv-Blr" eventType="touchUpInside" id="8Ud-Yr-ar5"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4N-E3-xe1" userLabel="Register">
-                                                <rect key="frame" x="50" y="217" width="87" height="35"/>
+                                                <rect key="frame" x="50" y="217" width="122" height="38"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,6 +77,20 @@
                                                     <constraint firstAttribute="height" constant="50" id="d5S-RF-MW2"/>
                                                 </constraints>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5l-Xe-dg7" userLabel="Login" propertyAccessControl="all">
+                                                <rect key="frame" x="290" y="217" width="90" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Log_in"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="loginButtonClicked:" destination="kLT-Wv-Blr" eventType="touchUpInside" id="8Ud-Yr-ar5"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES"/>
@@ -171,7 +171,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="uiw-ut-TVb" userLabel="Login Field">
                                                 <rect key="frame" x="54" y="90" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                             </textField>
@@ -188,7 +188,7 @@
                                                 <rect key="frame" x="54" y="175" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" systemColor="tableCellBlueTextColor"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -201,20 +201,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                                 <connections>
                                                     <action selector="returnButtonClicked:" destination="yBx-0N-KIH" eventType="touchUpInside" id="QAI-Kd-riT"/>
-                                                </connections>
-                                            </button>
-                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugd-fk-Bjr" userLabel="DeleteAccount">
-                                                <rect key="frame" x="304" y="20" width="74" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Delete"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Delete"/>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="deleteButtonClicked:" destination="yBx-0N-KIH" eventType="touchUpInside" id="2yF-dz-4rb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdT-fm-iiU" userLabel="Submit">
@@ -230,6 +216,19 @@
                                                     <action selector="submitButtonClicked:" destination="yBx-0N-KIH" eventType="touchUpInside" id="Q7z-NQ-s53"/>
                                                 </connections>
                                             </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugd-fk-Bjr" userLabel="DeleteAccount">
+                                                <rect key="frame" x="302" y="52" width="73.333333333333314" height="34.333333333333343"/>
+                                                <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Delete"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Delete"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="deleteButtonClicked:" destination="yBx-0N-KIH" eventType="touchUpInside" id="2yF-dz-4rb"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES"/>
@@ -239,6 +238,7 @@
                                             <constraint firstItem="Ecf-43-wxF" firstAttribute="leading" secondItem="Fv0-UZ-bhu" secondAttribute="leading" constant="54" id="2Fb-EX-5A0"/>
                                             <constraint firstItem="TJZ-bl-DtC" firstAttribute="top" secondItem="uiw-ut-TVb" secondAttribute="bottom" constant="22" id="4fE-2K-fLc"/>
                                             <constraint firstItem="KYZ-xR-QqK" firstAttribute="top" secondItem="TJZ-bl-DtC" secondAttribute="bottom" constant="8.3300000000000001" id="4zT-Ay-Ok3"/>
+                                            <constraint firstItem="Ugd-fk-Bjr" firstAttribute="bottom" secondItem="uiw-ut-TVb" secondAttribute="top" constant="-5" id="Bsc-xI-oJ7"/>
                                             <constraint firstAttribute="trailing" secondItem="uiw-ut-TVb" secondAttribute="trailingMargin" constant="18" id="Lgp-et-22m"/>
                                             <constraint firstItem="Ecf-43-wxF" firstAttribute="top" secondItem="Fv0-UZ-bhu" secondAttribute="top" constant="67" id="PAT-NP-roU"/>
                                             <constraint firstItem="TJZ-bl-DtC" firstAttribute="leading" secondItem="Fv0-UZ-bhu" secondAttribute="leading" constant="54" id="UYr-Ok-9Fa"/>
@@ -249,6 +249,7 @@
                                             <constraint firstItem="uiw-ut-TVb" firstAttribute="centerX" secondItem="Fv0-UZ-bhu" secondAttribute="centerX" id="oMo-NP-AlN"/>
                                             <constraint firstItem="QdT-fm-iiU" firstAttribute="top" secondItem="KYZ-xR-QqK" secondAttribute="bottom" constant="5" id="tbU-MQ-XjT"/>
                                             <constraint firstAttribute="trailing" secondItem="TJZ-bl-DtC" secondAttribute="trailing" constant="254" id="uyf-9F-yeP"/>
+                                            <constraint firstItem="Ugd-fk-Bjr" firstAttribute="trailing" secondItem="QdT-fm-iiU" secondAttribute="trailing" id="wbx-m1-wyK"/>
                                             <constraint firstItem="KYZ-xR-QqK" firstAttribute="leading" secondItem="uiw-ut-TVb" secondAttribute="leading" id="xZ9-7h-5Sa"/>
                                             <constraint firstItem="uiw-ut-TVb" firstAttribute="leading" secondItem="Ecf-43-wxF" secondAttribute="leading" constant="-44" id="zKZ-XX-ifq"/>
                                         </constraints>
@@ -265,7 +266,7 @@
                                                             <action selector="createNotification:" destination="yBx-0N-KIH" eventType="valueChanged" id="nF8-c4-xvI"/>
                                                         </connections>
                                                     </datePicker>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Daily Reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5Y-hA-0xb" userLabel="DailyReminder">
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Daily Reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5Y-hA-0xb" userLabel="DailyReminder">
                                                         <rect key="frame" x="9.9999999999999929" y="54" width="114.33333333333331" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -274,7 +275,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Daily_Reminder"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mn4-F7-f71">
+                                                    <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mn4-F7-f71">
                                                         <rect key="frame" x="129.33333333333334" y="49" width="51" height="31"/>
                                                         <connections>
                                                             <action selector="notificationChanged:" destination="yBx-0N-KIH" eventType="valueChanged" id="0Dg-PX-gx0"/>
@@ -614,7 +615,7 @@
                                                     <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Incorrect"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="answerCheckButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qQT-dA-xDl"/>
+                                                    <action selector="incorrectButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VAX-Gy-WPO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -684,7 +685,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="7mI-gE-hGA" userLabel="Original word Field">
                                                 <rect key="frame" x="54" y="90" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                             </textField>
@@ -701,7 +702,7 @@
                                                 <rect key="frame" x="54" y="175" width="326" height="34"/>
                                                 <color key="backgroundColor" red="0.6797797055" green="0.67944666929999997" blue="0.7577716766" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" systemColor="tableCellBlueTextColor"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -730,7 +731,7 @@
                                                     <userDefinedRuntimeAttribute type="string" keyPath="localeKey" value="Delete"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="S0E-8V-SE0" eventType="touchUpInside" id="nmx-ZQ-NTT"/>
+                                                    <action selector="deleteButtonClicked:" destination="S0E-8V-SE0" eventType="touchUpInside" id="WGK-Ld-H08"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -806,7 +807,6 @@
                         <outlet property="image" destination="xe2-NW-wEr" id="bDN-9g-VBj"/>
                         <outlet property="toTranslateField" destination="7mI-gE-hGA" id="UzG-e7-Fnj"/>
                         <outlet property="translatedField" destination="m1k-iJ-1UC" id="bfH-Ar-lVL"/>
-                        <segue destination="dkj-jL-UIJ" kind="presentation" identifier="takePhoto" id="a6d-5Q-0eL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I98-jm-2gY" sceneMemberID="firstResponder"/>
@@ -988,22 +988,6 @@
             </objects>
             <point key="canvasLocation" x="148" y="782"/>
         </scene>
-        <!--CustomCameraController-->
-        <scene sceneID="xzQ-Aw-8Kf">
-            <objects>
-                <viewController id="dkj-jL-UIJ" userLabel="CustomCameraController" customClass="CustomCameraController" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IBm-1D-PAe">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="I6G-2W-Rg3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="oQZ-is-2gO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XA9-VO-RIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2530" y="-43"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ybB-8h-iUX">
             <objects>
@@ -1026,7 +1010,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="Od2-S8-egD"/>
         <segue reference="fz5-DK-uic"/>
-        <segue reference="GkI-NG-xqn"/>
+        <segue reference="mV6-SG-9BX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="placeholderTextColor">

@@ -29,7 +29,7 @@ class RegisterController: UIViewController {
         if(accountExists){
             deleteButton.isHidden = false
             dailyReminderView.isHidden = false
-            notificationDate.isHidden = false
+//            notificationDate.isHidden = false
             
             if let login = UserDefaults.standard.string(forKey: DefaultsKeys.login) {
                 loginField.text = login
@@ -38,7 +38,7 @@ class RegisterController: UIViewController {
         } else {
             deleteButton.isHidden = true
             dailyReminderView.isHidden = true
-            notificationDate.isHidden = true
+//            notificationDate.isHidden = true
             
         }
     }
@@ -70,7 +70,7 @@ class RegisterController: UIViewController {
         performSegueToReturnBack()
     }
     @IBAction func notificationChanged(_ sender: UISwitch) {
-        notificationDate.isHidden = !sender.isOn
+//        notificationDate.isHidden = !sender.isOn
         if(!sender.isOn){
             let identifier = "myFlashCardId"
             UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [identifier])
