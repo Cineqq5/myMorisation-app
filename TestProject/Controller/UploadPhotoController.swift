@@ -5,4 +5,13 @@
 //  Created by Morten on 14/05/2024.
 //
 
-import Foundation
+import UIKit
+
+class UploadPhotoController: UIViewController  {
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+}

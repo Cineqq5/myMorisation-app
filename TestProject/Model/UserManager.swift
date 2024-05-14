@@ -16,7 +16,7 @@ protocol UserManagerDelegate {
 
 struct UserManager{
     
-    let backendURL = "https://979d-2a02-a317-223e-8e80-f8dd-caec-3fdd-1614.ngrok-free.app" + "/users"
+    let backendURL = "https://7748-2a02-a317-223e-8e80-67ca-af83-e59-7062.ngrok-free.app" + "/users"
     
     var delegate: UserManagerDelegate?
     
@@ -116,23 +116,9 @@ struct UserManager{
         }
     }
     
-//    func handle(data: Data?, response: URLResponse?, error: Error?){
-//        if error != nil {
-//            print(error!)
-//            return
-//        }
-//        
-//        if let safeData = data {
-//            let dataString = String(data: safeData, encoding: .utf8)
-//        }
-//    }
-    
     //-------------------------
     
     func createUser(username: String, password: String){
-//        let requestBody = NewUserRequest(username: username, password: password)
-//        let data = try! JSONEncoder().encode(requestBody)
-//        Networking().callAPI(uri: backendURL , requestMethod: "POST", requestBody: data)
         
         if let url = URL(string: backendURL){
             
@@ -164,20 +150,25 @@ struct UserManager{
         }
     }
     
-    func updateUser(userId: Int, role: String){
-        Networking().callAPI(uri: backendURL + "/users/\(userId)", requestMethod: "PUT", requestBody: nil)
-    }
-    
-    func updateUserRole(userId: Int, username: String, password: String){
+    func updateUser(userId: Int, username: String, password: String){
         let updateRequest = NewUserRequest(username: username, password: password)
         let data = try! JSONEncoder().encode(updateRequest)
-        print(data)
-        Networking().callAPI(uri: backendURL + "/users/\(userId)", requestMethod: "PUT", requestBody: data)
+        Networking().callAPI(uri: backendURL + "/\(userId)", requestMethod: "PUT", requestBody: data)
     }
+    
+    func updateUserRole(userId: Int, role: String){
+        Networking().callAPI(uri: backendURL + "/\(userId)/role/\(role.uppercased())", requestMethod: "PUT", requestBody: nil)
+    }
+    
+//    func updateUserRole(userId: Int, username: String, password: String){
+//        let updateRequest = NewUserRequest(username: username, password: password)
+//        let data = try! JSONEncoder().encode(updateRequest)
+//        print(data)
+//        Networking().callAPI(uri: backendURL + "/users/\(userId)", requestMethod: "PUT", requestBody: data)
+//    }
     
     func deleteUser(userId: String) {
         Networking().callAPI(uri: backendURL + "/\(userId)", requestMethod: "DELETE", requestBody: nil)
-        
     }
 
 }

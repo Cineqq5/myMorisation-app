@@ -17,5 +17,6 @@ struct FlashCardRecord: Decodable{
     let originalWord: String
     let translatedWord: String
     let progress: Int
+    let imageBase64: String
 //    let timeOfNextReview: Date
 }

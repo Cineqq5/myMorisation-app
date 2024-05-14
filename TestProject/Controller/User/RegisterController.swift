@@ -57,7 +57,13 @@ class RegisterController: UIViewController {
             login,
             forKey: DefaultsKeys.login
         )
-        userManager.createUser(username: login, password: password)
+        if(accountExists){
+            var userId = UserDefaults.standard.integer(forKey: DefaultsKeys.userId)
+            userManager.updateUser(userId: userId,username: login, password: password)
+            performSegueToReturnBack()
+        } else {
+            userManager.createUser(username: login, password: password)
+        }
 //        self.performSegue(withIdentifier: "goToMainMenu", sender: self)
     }
     @IBAction func returnButtonClicked(_ sender: UIButton) {
@@ -113,19 +119,17 @@ extension RegisterController: UserManagerDelegate{
     func didVerifiedUser(_ userManager: UserManager, users: UserInfoDto) {
         
         DispatchQueue.main.async {
-            print("kurwa \(users.userState)")
             if(users.userState == UserState.NOT_EXIST){
                 let defaults = UserDefaults.standard
                 defaults.set(
                     users.id,
                     forKey: DefaultsKeys.userId
                 )
-                //            defaults.set(
-                //                users.role,
-                //                forKey: DefaultsKeys.role
-                //            )
+                defaults.set(
+                    users.role,
+                    forKey: DefaultsKeys.userRole
+                )
                 self.performSegue(withIdentifier: "goToMainMenu", sender: self)
-                //            UserManager().createUser(username: <#T##String#>, password: <#T##String#>)
             }
         }
     }

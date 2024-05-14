@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var toTranslate: UILabel!
     @IBOutlet weak var translated: UILabel!
     
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
     var flashCardManager = FlashCardManager()
     var cards = [FlashCard]()
     
-    var element = FlashCard(i: 0, q: "", a: "")
+    var element = FlashCard(i: 0, q: "", a: "", i64: "")
     override func viewDidLoad() {
         let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.showAnswer(_:)))
         translateView.addGestureRecognizer(gesture)
@@ -38,9 +39,11 @@ class ViewController: UIViewController {
             print(element)
             toTranslate.text = element.toTranslate
             translated.text = element.translated
-            translated.isHidden = true;
-            correctButton.isHidden = true;
-            incorrectButton.isHidden = true;
+            imageView.image = element.imageBase64.imageFromBase64
+            imageView.isHidden = true
+            translated.isHidden = true
+            correctButton.isHidden = true
+            incorrectButton.isHidden = true
         } else {
 //            self.dismiss(animated: true, completion: nil)
             performSegueToReturnBack()
@@ -49,9 +52,10 @@ class ViewController: UIViewController {
 
     @objc func showAnswer(_ sender:UITapGestureRecognizer) {
         
-        translated.isHidden = false;
-        correctButton.isHidden = false;
-        incorrectButton.isHidden = false;
+        translated.isHidden = false
+        correctButton.isHidden = false
+        incorrectButton.isHidden = false
+        imageView.isHidden = false
     }
     @IBAction func answerCheckButton(_ sender: UIButton) {
 //        flashCardManager.removeFromList(flashCard: element)

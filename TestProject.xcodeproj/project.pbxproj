@@ -18,6 +18,17 @@
 		5A2BB2BD2BE44012008037A3 /* TestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2BB2BC2BE44012008037A3 /* TestProjectUITestsLaunchTests.swift */; };
 		5A94F5E02BEB8BC8003D0280 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94F5DF2BEB8BC7003D0280 /* LoginController.swift */; };
 		5A94F5E22BEB8F8F003D0280 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94F5E12BEB8F8F003D0280 /* RegisterController.swift */; };
+		5AA3762D2BF3AA9400AF183A /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3762C2BF3AA9400AF183A /* PhotoController.swift */; };
+		5AA376312BF3AC8800AF183A /* UploadPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA376302BF3AC8800AF183A /* UploadPhotoController.swift */; };
+		5AA376332BF3BB5B00AF183A /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA376322BF3BB5B00AF183A /* iOSDevCenters+GIF.swift */; };
+		5AA376352BF3BC4D00AF183A /* 1494.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AA376342BF3BC4D00AF183A /* 1494.gif */; };
+		5AA376382BF3BD0B00AF183A /* kOnzy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AA376372BF3BD0B00AF183A /* kOnzy.gif */; };
+		5AA3763E2BF3C82100AF183A /* Base64Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3763D2BF3C82100AF183A /* Base64Converter.swift */; };
+		5AA376402BF3D51C00AF183A /* ResizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3763F2BF3D51C00AF183A /* ResizeImage.swift */; };
+		5AA376462BF3FF0B00AF183A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AA376452BF3FF0B00AF183A /* GoogleService-Info.plist */; };
+		5AA3764F2BF40D4B00AF183A /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA3764E2BF40D4B00AF183A /* InfoPlist.xcstrings */; };
+		5AA376512BF40D4B00AF183A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA376502BF40D4B00AF183A /* Localizable.xcstrings */; };
+		5AA376582BF4141600AF183A /* TextLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA376572BF4141600AF183A /* TextLocalization.swift */; };
 		5AA4C6952BF23B41000C765C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4C6942BF23B41000C765C /* UserData.swift */; };
 		5AA4C6972BF23E17000C765C /* NewUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4C6962BF23E17000C765C /* NewUserRequest.swift */; };
 		5AA638DE2BF2ABD000A85D45 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA638DD2BF2ABD000A85D45 /* DefaultsKeys.swift */; };
@@ -64,9 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A2458082BEFD8CB006B956A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		5A2458092BEFD9E6006B956A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
-		5A2BB2962BE4400D008037A3 /* MyMorisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMorisation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2962BE4400D008037A3 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2992BE4400D008037A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2BB29B2BE4400D008037A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A2BB29D2BE4400D008037A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,13 +83,27 @@
 		5A2BB2A22BE44012008037A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2BB2A52BE44012008037A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2BB2A72BE44012008037A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMorisationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2B02BE44012008037A3 /* TestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectTests.swift; sourceTree = "<group>"; };
-		5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMorisationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2BA2BE44012008037A3 /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		5A2BB2BC2BE44012008037A3 /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A94F5DF2BEB8BC7003D0280 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		5A94F5E12BEB8F8F003D0280 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		5AA3762C2BF3AA9400AF183A /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		5AA376302BF3AC8800AF183A /* UploadPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoController.swift; sourceTree = "<group>"; };
+		5AA376322BF3BB5B00AF183A /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		5AA376342BF3BC4D00AF183A /* 1494.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1494.gif; path = ../../../../../../Downloads/1494.gif; sourceTree = "<group>"; };
+		5AA376362BF3BC5F00AF183A /* 1494.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1494.gif; sourceTree = "<group>"; };
+		5AA376372BF3BD0B00AF183A /* kOnzy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = kOnzy.gif; path = ../../../../../../Downloads/kOnzy.gif; sourceTree = "<group>"; };
+		5AA376392BF3BD0E00AF183A /* kOnzy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kOnzy.gif; sourceTree = "<group>"; };
+		5AA3763D2BF3C82100AF183A /* Base64Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Converter.swift; sourceTree = "<group>"; };
+		5AA3763F2BF3D51C00AF183A /* ResizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImage.swift; sourceTree = "<group>"; };
+		5AA376452BF3FF0B00AF183A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AA376492BF4029E00AF183A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5AA3764E2BF40D4B00AF183A /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		5AA376502BF40D4B00AF183A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		5AA376572BF4141600AF183A /* TextLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLocalization.swift; sourceTree = "<group>"; };
 		5AA4C6942BF23B41000C765C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		5AA4C6962BF23E17000C765C /* NewUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserRequest.swift; sourceTree = "<group>"; };
 		5AA638DD2BF2ABD000A85D45 /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
@@ -138,7 +161,7 @@
 		5A2BB28D2BE4400D008037A3 = {
 			isa = PBXGroup;
 			children = (
-				5A2BB2982BE4400D008037A3 /* MyMorisation */,
+				5A2BB2982BE4400D008037A3 /* TestProject */,
 				5A2BB2AF2BE44012008037A3 /* TestProjectTests */,
 				5A2BB2B92BE44012008037A3 /* TestProjectUITests */,
 				5A2BB2972BE4400D008037A3 /* Products */,
@@ -148,17 +171,20 @@
 		5A2BB2972BE4400D008037A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A2BB2962BE4400D008037A3 /* MyMorisation.app */,
-				5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */,
-				5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */,
+				5A2BB2962BE4400D008037A3 /* TestProject.app */,
+				5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */,
+				5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A2BB2982BE4400D008037A3 /* MyMorisation */ = {
+		5A2BB2982BE4400D008037A3 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3763C2BF3C80600AF183A /* Extensions */,
 				5A2BB2992BE4400D008037A3 /* AppDelegate.swift */,
+				5AA376502BF40D4B00AF183A /* Localizable.xcstrings */,
+				5AA3764E2BF40D4B00AF183A /* InfoPlist.xcstrings */,
 				5A2BB29B2BE4400D008037A3 /* SceneDelegate.swift */,
 				5AB4C32A2BE6B6DB00345C2A /* Model */,
 				5AB4C32B2BE6B6E600345C2A /* View */,
@@ -166,8 +192,9 @@
 				5A2BB2A22BE44012008037A3 /* Assets.xcassets */,
 				5A2BB2A42BE44012008037A3 /* LaunchScreen.storyboard */,
 				5A2BB2A72BE44012008037A3 /* Info.plist */,
+				5AA376452BF3FF0B00AF183A /* GoogleService-Info.plist */,
 			);
-			path = MyMorisation;
+			path = TestProject;
 			sourceTree = "<group>";
 		};
 		5A2BB2AF2BE44012008037A3 /* TestProjectTests */ = {
@@ -190,11 +217,23 @@
 		5A94F5DE2BEB8B42003D0280 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				5AA376362BF3BC5F00AF183A /* 1494.gif */,
+				5AA376392BF3BD0E00AF183A /* kOnzy.gif */,
 				5A94F5DF2BEB8BC7003D0280 /* LoginController.swift */,
 				5A94F5E12BEB8F8F003D0280 /* RegisterController.swift */,
 				5AAB2D332BECBCE600148EE5 /* UsersManagementController.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		5AA3763C2BF3C80600AF183A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5AA3763D2BF3C82100AF183A /* Base64Converter.swift */,
+				5AA3763F2BF3D51C00AF183A /* ResizeImage.swift */,
+				5AA376572BF4141600AF183A /* TextLocalization.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5AA638DC2BF2ABBB00A85D45 /* LocalStorage */ = {
@@ -249,6 +288,8 @@
 		5AB4C32C2BE6B6F300345C2A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AA376342BF3BC4D00AF183A /* 1494.gif */,
+				5AA376372BF3BD0B00AF183A /* kOnzy.gif */,
 				5A94F5DE2BEB8B42003D0280 /* User */,
 				5A2BB29D2BE4400D008037A3 /* ViewController.swift */,
 				5AB4C3312BE6C29A00345C2A /* MainMenuController.swift */,
@@ -258,6 +299,9 @@
 				5AB65EB62BE9D4E700A77D3A /* UIViewController.swift */,
 				5AB52FEB2BED4E5700EB4C95 /* UIView+Extension.swift .swift */,
 				5AB52FEF2BED4FD000EB4C95 /* CustomCameraController.swift */,
+				5AA3762C2BF3AA9400AF183A /* PhotoController.swift */,
+				5AA376302BF3AC8800AF183A /* UploadPhotoController.swift */,
+				5AA376322BF3BB5B00AF183A /* iOSDevCenters+GIF.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,9 +318,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A2BB2952BE4400D008037A3 /* MyMorisation */ = {
+		5A2BB2952BE4400D008037A3 /* TestProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisation" */;
+			buildConfigurationList = 5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProject" */;
 			buildPhases = (
 				5A2BB2922BE4400D008037A3 /* Sources */,
 				5A2BB2932BE4400D008037A3 /* Frameworks */,
@@ -286,14 +330,14 @@
 			);
 			dependencies = (
 			);
-			name = MyMorisation;
+			name = TestProject;
 			productName = TestProject;
-			productReference = 5A2BB2962BE4400D008037A3 /* MyMorisation.app */;
+			productReference = 5A2BB2962BE4400D008037A3 /* TestProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A2BB2AB2BE44012008037A3 /* MyMorisationTests */ = {
+		5A2BB2AB2BE44012008037A3 /* TestProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationTests" */;
+			buildConfigurationList = 5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectTests" */;
 			buildPhases = (
 				5A2BB2A82BE44012008037A3 /* Sources */,
 				5A2BB2A92BE44012008037A3 /* Frameworks */,
@@ -304,14 +348,14 @@
 			dependencies = (
 				5A2BB2AE2BE44012008037A3 /* PBXTargetDependency */,
 			);
-			name = MyMorisationTests;
+			name = TestProjectTests;
 			productName = TestProjectTests;
-			productReference = 5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */;
+			productReference = 5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A2BB2B52BE44012008037A3 /* MyMorisationUITests */ = {
+		5A2BB2B52BE44012008037A3 /* TestProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationUITests" */;
+			buildConfigurationList = 5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */;
 			buildPhases = (
 				5A2BB2B22BE44012008037A3 /* Sources */,
 				5A2BB2B32BE44012008037A3 /* Frameworks */,
@@ -322,9 +366,9 @@
 			dependencies = (
 				5A2BB2B82BE44012008037A3 /* PBXTargetDependency */,
 			);
-			name = MyMorisationUITests;
+			name = TestProjectUITests;
 			productName = TestProjectUITests;
-			productReference = 5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */;
+			productReference = 5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +394,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "MyMorisation" */;
+			buildConfigurationList = 5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "TestProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -364,9 +408,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A2BB2952BE4400D008037A3 /* MyMorisation */,
-				5A2BB2AB2BE44012008037A3 /* MyMorisationTests */,
-				5A2BB2B52BE44012008037A3 /* MyMorisationUITests */,
+				5A2BB2952BE4400D008037A3 /* TestProject */,
+				5A2BB2AB2BE44012008037A3 /* TestProjectTests */,
+				5A2BB2B52BE44012008037A3 /* TestProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,8 +421,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2BB2A32BE44012008037A3 /* Assets.xcassets in Resources */,
+				5AA3764F2BF40D4B00AF183A /* InfoPlist.xcstrings in Resources */,
+				5AA376512BF40D4B00AF183A /* Localizable.xcstrings in Resources */,
 				5A2BB2A62BE44012008037A3 /* Base in Resources */,
+				5AA376352BF3BC4D00AF183A /* 1494.gif in Resources */,
+				5AA376382BF3BD0B00AF183A /* kOnzy.gif in Resources */,
 				5A2BB2A12BE4400D008037A3 /* Base in Resources */,
+				5AA376462BF3FF0B00AF183A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +457,7 @@
 				5A94F5E22BEB8F8F003D0280 /* RegisterController.swift in Sources */,
 				5A94F5E02BEB8BC8003D0280 /* LoginController.swift in Sources */,
 				5AA638DE2BF2ABD000A85D45 /* DefaultsKeys.swift in Sources */,
+				5AA376402BF3D51C00AF183A /* ResizeImage.swift in Sources */,
 				5AAD676A2BF15DF900EDE885 /* ResultType.swift in Sources */,
 				5ACE94832BE7BC8A001D5DD5 /* AllCardsManager.swift in Sources */,
 				5AB9F97A2BF2893C00DC0D05 /* UserState.swift in Sources */,
@@ -415,6 +465,7 @@
 				5AB4C32E2BE6B78100345C2A /* FlashCardManager.swift in Sources */,
 				5AAD67652BF15B0C00EDE885 /* NewCardRequest.swift in Sources */,
 				5A2BB29A2BE4400D008037A3 /* AppDelegate.swift in Sources */,
+				5AA376582BF4141600AF183A /* TextLocalization.swift in Sources */,
 				5AAB2D322BECBAEB00148EE5 /* UserManager.swift in Sources */,
 				5AB52FEE2BED4E8700EB4C95 /* PhotoPreviewView.swift in Sources */,
 				5AAB2D2E2BECB95F00148EE5 /* User.swift in Sources */,
@@ -424,15 +475,19 @@
 				5AB65EB72BE9D4E700A77D3A /* UIViewController.swift in Sources */,
 				5AC481EA2BF2017400FADFD0 /* CardsProgressUpdateRequest.swift in Sources */,
 				5AAB2D302BECB9FF00148EE5 /* UserCell.swift in Sources */,
+				5AA376332BF3BB5B00AF183A /* iOSDevCenters+GIF.swift in Sources */,
 				5AB4C3292BE6B67300345C2A /* FlashCard.swift in Sources */,
 				5ACE94852BE7C690001D5DD5 /* FlashCardData.swift in Sources */,
 				5AB65EB92BE9DC7C00A77D3A /* CardCell.swift in Sources */,
+				5AA376312BF3AC8800AF183A /* UploadPhotoController.swift in Sources */,
 				5AA4C6952BF23B41000C765C /* UserData.swift in Sources */,
 				5ACE94812BE7B34F001D5DD5 /* AddCardController.swift in Sources */,
+				5AA3763E2BF3C82100AF183A /* Base64Converter.swift in Sources */,
 				5AAD676C2BF15F7A00EDE885 /* Networking.swift in Sources */,
 				5A2BB29C2BE4400D008037A3 /* SceneDelegate.swift in Sources */,
 				5AB4C3322BE6C29A00345C2A /* MainMenuController.swift in Sources */,
 				5AB9F9782BF288D100DC0D05 /* UserInfoDto.swift in Sources */,
+				5AA3762D2BF3AA9400AF183A /* PhotoController.swift in Sources */,
 				5AB52FF02BED4FD000EB4C95 /* CustomCameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,12 +514,12 @@
 /* Begin PBXTargetDependency section */
 		5A2BB2AE2BE44012008037A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A2BB2952BE4400D008037A3 /* MyMorisation */;
+			target = 5A2BB2952BE4400D008037A3 /* TestProject */;
 			targetProxy = 5A2BB2AD2BE44012008037A3 /* PBXContainerItemProxy */;
 		};
 		5A2BB2B82BE44012008037A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A2BB2952BE4400D008037A3 /* MyMorisation */;
+			target = 5A2BB2952BE4400D008037A3 /* TestProject */;
 			targetProxy = 5A2BB2B72BE44012008037A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,8 +529,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A2BB2A02BE4400D008037A3 /* Base */,
-				5A2458082BEFD8CB006B956A /* en */,
-				5A2458092BEFD9E6006B956A /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -484,6 +537,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A2BB2A52BE44012008037A3 /* Base */,
+				5AA376492BF4029E00AF183A /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -622,6 +676,7 @@
 				DEVELOPMENT_TEAM = 8Z9N954MBG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "myMorisation wants to use your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -653,6 +708,7 @@
 				DEVELOPMENT_TEAM = 8Z9N954MBG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "myMorisation wants to use your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -689,7 +745,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMorisation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMorisation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestProject";
 			};
 			name = Debug;
 		};
@@ -708,7 +764,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMorisation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMorisation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestProject";
 			};
 			name = Release;
 		};
@@ -749,7 +805,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "MyMorisation" */ = {
+		5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "TestProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2BE2BE44012008037A3 /* Debug */,
@@ -758,7 +814,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisation" */ = {
+		5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C12BE44012008037A3 /* Debug */,
@@ -767,7 +823,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationTests" */ = {
+		5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C42BE44012008037A3 /* Debug */,
@@ -776,7 +832,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationUITests" */ = {
+		5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C72BE44012008037A3 /* Debug */,

@@ -14,8 +14,8 @@ class UserCell: UITableViewCell{
     @IBOutlet weak var roleButton: UIButton!
     @IBOutlet weak var userLabel: UILabel!
     
-    func setPopupButton(role: String){
-        let optionClosure = {(action: UIAction) in print(action.title)}
+    func setPopupButton(user: Int, role: String){
+        let optionClosure = {(action: UIAction) in UserManager().updateUserRole(userId: user, role: action.title)}
         var isAdmin = role == "ADMIN"
         roleButton.menu = UIMenu(children: [
             UIAction(title: "Admin", 
@@ -28,6 +28,8 @@ class UserCell: UITableViewCell{
         
         roleButton.showsMenuAsPrimaryAction = true
         roleButton.changesSelectionAsPrimaryAction = true
+        var userId = UserDefaults.standard.integer(forKey: DefaultsKeys.userId)
+        roleButton.isEnabled = userId != user
 //        roleButton.menu?.children.randomElement()
     }
 //    func updateRole(

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5A2BB2952BE4400D008037A3"
-               BuildableName = "MyMorisation.app"
-               BlueprintName = "MyMorisation"
-               ReferencedContainer = "container:MyMorisation.xcodeproj">
+               BuildableName = "TestProject.app"
+               BlueprintName = "TestProject"
+               ReferencedContainer = "container:TestProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5A2BB2AB2BE44012008037A3"
-               BuildableName = "MyMorisationTests.xctest"
-               BlueprintName = "MyMorisationTests"
-               ReferencedContainer = "container:MyMorisation.xcodeproj">
+               BuildableName = "TestProjectTests.xctest"
+               BlueprintName = "TestProjectTests"
+               ReferencedContainer = "container:TestProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5A2BB2B52BE44012008037A3"
-               BuildableName = "MyMorisationUITests.xctest"
-               BlueprintName = "MyMorisationUITests"
-               ReferencedContainer = "container:MyMorisation.xcodeproj">
+               BuildableName = "TestProjectUITests.xctest"
+               BlueprintName = "TestProjectUITests"
+               ReferencedContainer = "container:TestProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = "pl"
-      region = "PL"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -71,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A2BB2952BE4400D008037A3"
-            BuildableName = "MyMorisation.app"
-            BlueprintName = "MyMorisation"
-            ReferencedContainer = "container:MyMorisation.xcodeproj">
+            BuildableName = "TestProject.app"
+            BlueprintName = "TestProject"
+            ReferencedContainer = "container:TestProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -92,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A2BB2952BE4400D008037A3"
-            BuildableName = "MyMorisation.app"
-            BlueprintName = "MyMorisation"
-            ReferencedContainer = "container:MyMorisation.xcodeproj">
+            BuildableName = "TestProject.app"
+            BlueprintName = "TestProject"
+            ReferencedContainer = "container:TestProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
