@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		5A2458082BEFD8CB006B956A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		5A2458092BEFD9E6006B956A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
-		5A2BB2962BE4400D008037A3 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2962BE4400D008037A3 /* MyMorisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMorisation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2992BE4400D008037A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2BB29B2BE4400D008037A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A2BB29D2BE4400D008037A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +74,9 @@
 		5A2BB2A22BE44012008037A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2BB2A52BE44012008037A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2BB2A72BE44012008037A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMorisationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2B02BE44012008037A3 /* TestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectTests.swift; sourceTree = "<group>"; };
-		5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMorisationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2BB2BA2BE44012008037A3 /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		5A2BB2BC2BE44012008037A3 /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A94F5DF2BEB8BC7003D0280 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		5A2BB28D2BE4400D008037A3 = {
 			isa = PBXGroup;
 			children = (
-				5A2BB2982BE4400D008037A3 /* TestProject */,
+				5A2BB2982BE4400D008037A3 /* MyMorisation */,
 				5A2BB2AF2BE44012008037A3 /* TestProjectTests */,
 				5A2BB2B92BE44012008037A3 /* TestProjectUITests */,
 				5A2BB2972BE4400D008037A3 /* Products */,
@@ -148,14 +148,14 @@
 		5A2BB2972BE4400D008037A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A2BB2962BE4400D008037A3 /* TestProject.app */,
-				5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */,
-				5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */,
+				5A2BB2962BE4400D008037A3 /* MyMorisation.app */,
+				5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */,
+				5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A2BB2982BE4400D008037A3 /* TestProject */ = {
+		5A2BB2982BE4400D008037A3 /* MyMorisation */ = {
 			isa = PBXGroup;
 			children = (
 				5A2BB2992BE4400D008037A3 /* AppDelegate.swift */,
@@ -167,7 +167,7 @@
 				5A2BB2A42BE44012008037A3 /* LaunchScreen.storyboard */,
 				5A2BB2A72BE44012008037A3 /* Info.plist */,
 			);
-			path = TestProject;
+			path = MyMorisation;
 			sourceTree = "<group>";
 		};
 		5A2BB2AF2BE44012008037A3 /* TestProjectTests */ = {
@@ -274,9 +274,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A2BB2952BE4400D008037A3 /* TestProject */ = {
+		5A2BB2952BE4400D008037A3 /* MyMorisation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProject" */;
+			buildConfigurationList = 5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisation" */;
 			buildPhases = (
 				5A2BB2922BE4400D008037A3 /* Sources */,
 				5A2BB2932BE4400D008037A3 /* Frameworks */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = TestProject;
+			name = MyMorisation;
 			productName = TestProject;
-			productReference = 5A2BB2962BE4400D008037A3 /* TestProject.app */;
+			productReference = 5A2BB2962BE4400D008037A3 /* MyMorisation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A2BB2AB2BE44012008037A3 /* TestProjectTests */ = {
+		5A2BB2AB2BE44012008037A3 /* MyMorisationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectTests" */;
+			buildConfigurationList = 5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationTests" */;
 			buildPhases = (
 				5A2BB2A82BE44012008037A3 /* Sources */,
 				5A2BB2A92BE44012008037A3 /* Frameworks */,
@@ -304,14 +304,14 @@
 			dependencies = (
 				5A2BB2AE2BE44012008037A3 /* PBXTargetDependency */,
 			);
-			name = TestProjectTests;
+			name = MyMorisationTests;
 			productName = TestProjectTests;
-			productReference = 5A2BB2AC2BE44012008037A3 /* TestProjectTests.xctest */;
+			productReference = 5A2BB2AC2BE44012008037A3 /* MyMorisationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A2BB2B52BE44012008037A3 /* TestProjectUITests */ = {
+		5A2BB2B52BE44012008037A3 /* MyMorisationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */;
+			buildConfigurationList = 5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationUITests" */;
 			buildPhases = (
 				5A2BB2B22BE44012008037A3 /* Sources */,
 				5A2BB2B32BE44012008037A3 /* Frameworks */,
@@ -322,9 +322,9 @@
 			dependencies = (
 				5A2BB2B82BE44012008037A3 /* PBXTargetDependency */,
 			);
-			name = TestProjectUITests;
+			name = MyMorisationUITests;
 			productName = TestProjectUITests;
-			productReference = 5A2BB2B62BE44012008037A3 /* TestProjectUITests.xctest */;
+			productReference = 5A2BB2B62BE44012008037A3 /* MyMorisationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "TestProject" */;
+			buildConfigurationList = 5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "MyMorisation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -364,9 +364,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A2BB2952BE4400D008037A3 /* TestProject */,
-				5A2BB2AB2BE44012008037A3 /* TestProjectTests */,
-				5A2BB2B52BE44012008037A3 /* TestProjectUITests */,
+				5A2BB2952BE4400D008037A3 /* MyMorisation */,
+				5A2BB2AB2BE44012008037A3 /* MyMorisationTests */,
+				5A2BB2B52BE44012008037A3 /* MyMorisationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -459,12 +459,12 @@
 /* Begin PBXTargetDependency section */
 		5A2BB2AE2BE44012008037A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A2BB2952BE4400D008037A3 /* TestProject */;
+			target = 5A2BB2952BE4400D008037A3 /* MyMorisation */;
 			targetProxy = 5A2BB2AD2BE44012008037A3 /* PBXContainerItemProxy */;
 		};
 		5A2BB2B82BE44012008037A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A2BB2952BE4400D008037A3 /* TestProject */;
+			target = 5A2BB2952BE4400D008037A3 /* MyMorisation */;
 			targetProxy = 5A2BB2B72BE44012008037A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -689,7 +689,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMorisation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMorisation";
 			};
 			name = Debug;
 		};
@@ -708,7 +708,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMorisation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMorisation";
 			};
 			name = Release;
 		};
@@ -749,7 +749,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "TestProject" */ = {
+		5A2BB2912BE4400D008037A3 /* Build configuration list for PBXProject "MyMorisation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2BE2BE44012008037A3 /* Debug */,
@@ -758,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProject" */ = {
+		5A2BB2C02BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C12BE44012008037A3 /* Debug */,
@@ -767,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
+		5A2BB2C32BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C42BE44012008037A3 /* Debug */,
@@ -776,7 +776,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
+		5A2BB2C62BE44012008037A3 /* Build configuration list for PBXNativeTarget "MyMorisationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2BB2C72BE44012008037A3 /* Debug */,
