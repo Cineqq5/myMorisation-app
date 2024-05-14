@@ -8,7 +8,8 @@
 import Foundation
 
 struct DefaultsKeys {
-    static let userId = ""
-    static let login = ""
+    static let userId = "userId"
+    static let login = "login"
+    static let userRole = "userRole"
 //    static let role = ""
 }

@@ -23,6 +23,8 @@ class MainMenuController: UIViewController{
     override func viewWillAppear(_ animated: Bool) {
         
         flashCardManager.getAvailableFlashCard()
+        let userRole = UserDefaults.standard.string(forKey: DefaultsKeys.userRole)
+        manageAccountsButton.isHidden = userRole == "USER"
 //        if let role = UserDefaults.standard.string(forKey: DefaultsKeys.role){
 //            manageAccountsButton.isHidden = role == "USER"
 //        }
@@ -131,7 +133,9 @@ extension MainMenuController: FlashCardManagerDelegate{
         DispatchQueue.main.async {
             self.cards = flashCards
             print(self.cards)
-            let title = "Review: \(self.cards.count) cards"
+            var title = "Review: \(self.cards.count)"
+            title = NSLocalizedString("Review: ", comment: "review")
+            title = title + "\(self.cards.count)"
             self.reviewButton.setTitle(title, for: .normal)
         }
     }

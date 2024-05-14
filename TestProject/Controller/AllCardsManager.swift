@@ -68,7 +68,7 @@ extension AllCardsManager: UITableViewDataSource, UITableViewDelegate, FlashCard
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let sender: [String: Any?] = ["id": cards[indexPath.row].id, "translatedField": cards[indexPath.row].translated, "toTranslateField": cards[indexPath.row].toTranslate]
+        let sender: [String: Any?] = ["id": cards[indexPath.row].id, "translatedField": cards[indexPath.row].translated, "toTranslateField": cards[indexPath.row].toTranslate, "imageBase64": cards[indexPath.row].imageBase64]
         self.performSegue(withIdentifier: "goToChangeCardPage", sender: sender)
     }
     
@@ -89,6 +89,7 @@ extension AllCardsManager: UITableViewDataSource, UITableViewDelegate, FlashCard
            secondView.id = object["id"] as! Int
         secondView.translated = object["translatedField"] as? String
         secondView.toTranslate = object["toTranslateField"] as? String
+        secondView.imageBase64 = object["imageBase64"] as? String
            secondView.cardExists = true
        }
     }

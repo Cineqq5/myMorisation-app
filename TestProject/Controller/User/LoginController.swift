@@ -12,6 +12,7 @@ class LoginController: UIViewController {
     
     @IBOutlet weak var loginField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var loadingGif: UIImageView!
     var userManager = UserManager()
     
     var login: String?
@@ -23,12 +24,15 @@ class LoginController: UIViewController {
         passwordField.text = password ?? ""
         userManager.delegate = self
         print(Locale.current.languageCode)
+        loadingGif.image = UIImage.gifImageWithName("kOnzy")
         // Do any additional setup after loading the view.
     }
+    
     
     @IBAction func loginButtonClicked(_ sender: UIButton) {
         guard let login = loginField.text else { return  }
         guard let password = passwordField.text else { return  }
+        loadingGif.isHidden = false
         UserDefaults.standard.set(
             login,
             forKey: DefaultsKeys.login
@@ -49,7 +53,6 @@ extension LoginController: UserManagerDelegate{
     }
     
     func didVerifiedUser(_ userManager: UserManager, users: UserInfoDto) {
-        print("delivered")
         DispatchQueue.main.async {
             if(users.userState == UserState.ACCESS){
                 let defaults = UserDefaults.standard
@@ -57,10 +60,11 @@ extension LoginController: UserManagerDelegate{
                     users.id,
                     forKey: DefaultsKeys.userId
                 )
-//                defaults.set(
-//                    users.role,
-//                    forKey: DefaultsKeys.role
-//                )
+                defaults.set(
+                    users.role,
+                    forKey: DefaultsKeys.userRole
+                )
+                self.loadingGif.isHidden = true
                 self.performSegue(withIdentifier: "goToMainMenu", sender: self)
             }
         }

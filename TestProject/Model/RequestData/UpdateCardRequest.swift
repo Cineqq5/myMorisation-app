@@ -11,5 +11,6 @@ struct UpdateCardRequest: Encodable {
     
     let originalWord: String
     let translatedWord: String
+    let imageBase64: String
     
 }

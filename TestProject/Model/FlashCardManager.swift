@@ -15,7 +15,7 @@ protocol FlashCardManagerDelegate {
 
 struct FlashCardManager{
     
-    let backendURL = "https://979d-2a02-a317-223e-8e80-f8dd-caec-3fdd-1614.ngrok-free.app"
+    let backendURL = "https://7748-2a02-a317-223e-8e80-67ca-af83-e59-7062.ngrok-free.app"
     
     var delegate: FlashCardManagerDelegate?
     
@@ -58,7 +58,6 @@ struct FlashCardManager{
                 if let safeData = data {
                     print(safeData)
                     if let flashCards = parseJSON(safeData){
-                        print(flashCards)
                         print("sendingToDelegate")
                         delegate?.didUpdateFlashCards(self, flashCards: flashCards)
                     }
@@ -78,7 +77,8 @@ struct FlashCardManager{
                 let id = decodedRecord.id
                 let translated = decodedRecord.translatedWord
                 let originalWord = decodedRecord.originalWord
-                flashCards.append(FlashCard(i: id, q: originalWord, a: translated))
+                let imageBase64 = decodedRecord.imageBase64
+                flashCards.append(FlashCard(i: id, q: originalWord, a: translated, i64: imageBase64))
             }
             return flashCards
             
@@ -101,14 +101,15 @@ struct FlashCardManager{
     
     //-------------------------
     
-    func createCard(flashCard: FlashCard){
-        let requestBody = NewCardRequest(userId: 1, originalWord: flashCard.toTranslate, translatedWord: flashCard.translated)
+    func createCard(flashCard: FlashCard, imageBase64: String){
+        let userId = UserDefaults.standard.integer(forKey: DefaultsKeys.userId)
+        let requestBody = NewCardRequest(userId: userId, originalWord: flashCard.toTranslate, translatedWord: flashCard.translated, imageBase64: imageBase64)
         let data = try! JSONEncoder().encode(requestBody)
         Networking().callAPI(uri: backendURL + "/cards", requestMethod: "POST", requestBody: data)
     }
     
-    func updateCard(flashCard: FlashCard){
-        let updateCardRequest = UpdateCardRequest(originalWord: flashCard.toTranslate, translatedWord: flashCard.translated)
+    func updateCard(flashCard: FlashCard, imageBase64: String){
+        let updateCardRequest = UpdateCardRequest(originalWord: flashCard.toTranslate, translatedWord: flashCard.translated, imageBase64: imageBase64)
         print(updateCardRequest)
         let data = try! JSONEncoder().encode(updateCardRequest)
         print(data)
