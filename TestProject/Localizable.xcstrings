@@ -1,0 +1,17 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Review: " : {
+      "comment" : "review",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do powtórki: "
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

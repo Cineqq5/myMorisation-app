@@ -1,6 +1,6 @@
 
 /* Class = "UIButton"; configuration.title = "Review"; ObjectID = "2sv-wU-Cje"; */
-"2sv-wU-Cje.configuration.title" = "Reviewen";
+"2sv-wU-Cje.configuration.title" = "Review";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2sv-wU-Cje"; */
 "2sv-wU-Cje.normalTitle" = "Button";
@@ -38,8 +38,8 @@
 /* Class = "UILabel"; text = "Daily Reminder"; ObjectID = "I5Y-hA-0xb"; */
 "I5Y-hA-0xb.text" = "Daily Reminder";
 
-/* Class = "UILabel"; text = "To Translated word"; ObjectID = "IzC-IB-ZUa"; */
-"IzC-IB-ZUa.text" = "To Translated word";
+/* Class = "UILabel"; text = "Original word"; ObjectID = "IzC-IB-ZUa"; */
+"IzC-IB-ZUa.text" = "Original word";
 
 /* Class = "UIButton"; configuration.title = "Manage Cards"; ObjectID = "JoV-P3-srx"; */
 "JoV-P3-srx.configuration.title" = "Manage Cards";
@@ -47,8 +47,8 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JoV-P3-srx"; */
 "JoV-P3-srx.normalTitle" = "Button";
 
-/* Class = "UILabel"; text = "toTranslateLabel"; ObjectID = "PGg-b2-XLR"; */
-"PGg-b2-XLR.text" = "toTranslateLabel";
+/* Class = "UILabel"; text = "Original word Label"; ObjectID = "PGg-b2-XLR"; */
+"PGg-b2-XLR.text" = "Original word Label";
 
 /* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "QdT-fm-iiU"; */
 "QdT-fm-iiU.configuration.title" = "Submit";
@@ -56,14 +56,17 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QdT-fm-iiU"; */
 "QdT-fm-iiU.normalTitle" = "Button";
 
-/* Class = "UILabel"; text = "ToTranslate"; ObjectID = "R5P-rM-1PJ"; */
-"R5P-rM-1PJ.text" = "ToTranslate";
+/* Class = "UILabel"; text = "Original word"; ObjectID = "R5P-rM-1PJ"; */
+"R5P-rM-1PJ.text" = "Original word";
 
 /* Class = "UIButton"; configuration.title = "Back"; ObjectID = "Rs3-E4-aLc"; */
 "Rs3-E4-aLc.configuration.title" = "Back";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rs3-E4-aLc"; */
 "Rs3-E4-aLc.normalTitle" = "Button";
+
+/* Class = "UIButton"; accessibilityLabel = "login"; ObjectID = "T5l-Xe-dg7"; */
+"T5l-Xe-dg7.accessibilityLabel" = "login";
 
 /* Class = "UIButton"; configuration.title = "Login"; ObjectID = "T5l-Xe-dg7"; */
 "T5l-Xe-dg7.configuration.title" = "Login";
@@ -89,8 +92,8 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VTD-yl-527"; */
 "VTD-yl-527.normalTitle" = "Button";
 
-/* Class = "UIButton"; configuration.title = "ManageAccounts"; ObjectID = "XNh-8v-fKV"; */
-"XNh-8v-fKV.configuration.title" = "ManageAccounts";
+/* Class = "UIButton"; configuration.title = "Manage Accounts"; ObjectID = "XNh-8v-fKV"; */
+"XNh-8v-fKV.configuration.title" = "Manage Accounts";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XNh-8v-fKV"; */
 "XNh-8v-fKV.normalTitle" = "Button";
@@ -115,6 +118,12 @@
 
 /* Class = "UILabel"; text = "Translated word"; ObjectID = "diu-U8-AZE"; */
 "diu-U8-AZE.text" = "Translated word";
+
+/* Class = "UIButton"; configuration.title = "Photo"; ObjectID = "eGP-PE-lcO"; */
+"eGP-PE-lcO.configuration.title" = "Photo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eGP-PE-lcO"; */
+"eGP-PE-lcO.normalTitle" = "Button";
 
 /* Class = "UIButton"; configuration.title = "Manage Account"; ObjectID = "g1q-k6-WKx"; */
 "g1q-k6-WKx.configuration.title" = "Manage Account";

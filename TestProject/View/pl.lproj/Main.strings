@@ -1,141 +1,147 @@
-
 /* Class = "UIButton"; configuration.title = "Review"; ObjectID = "2sv-wU-Cje"; */
-"2sv-wU-Cje.configuration.title" = "Reviewpl";
+"2sv-wU-Cje.configuration.title" = "Do potworki";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2sv-wU-Cje"; */
-"2sv-wU-Cje.normalTitle" = "Buttonpl";
+"2sv-wU-Cje.normalTitle" = "Przycisk";
 
 /* Class = "UILabel"; text = "TranslatedName"; ObjectID = "3Ba-nJ-eyX"; */
-"3Ba-nJ-eyX.text" = "TranslatedNamepl";
+"3Ba-nJ-eyX.text" = "Tlumaczenie";
 
 /* Class = "UIButton"; configuration.title = "Add Card"; ObjectID = "3zv-yo-Kju"; */
-"3zv-yo-Kju.configuration.title" = "Add Cardpl";
+"3zv-yo-Kju.configuration.title" = "Doodad karte";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3zv-yo-Kju"; */
-"3zv-yo-Kju.normalTitle" = "Buttonpl";
+"3zv-yo-Kju.normalTitle" = "Przycisk";
 
 /* Class = "UIButton"; configuration.title = "Log off"; ObjectID = "5My-Sz-dOx"; */
-"5My-Sz-dOx.configuration.title" = "Log offpl";
+"5My-Sz-dOx.configuration.title" = "Wyloguj";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5My-Sz-dOx"; */
-"5My-Sz-dOx.normalTitle" = "Buttonpl";
+"5My-Sz-dOx.normalTitle" = "Przycisk";
 
 /* Class = "UILabel"; text = "Login"; ObjectID = "7f8-Ft-Lti"; */
-"7f8-Ft-Lti.text" = "Loginpl";
+"7f8-Ft-Lti.text" = "Login";
 
 /* Class = "UICommand"; title = "Item 1"; ObjectID = "9HL-u5-B2J"; */
-"9HL-u5-B2J.title" = "Item 1pl";
+"9HL-u5-B2J.title" = "Przedmiot 1";
 
 /* Class = "UIButton"; configuration.title = "Incorrect"; ObjectID = "9no-21-gaV"; */
-"9no-21-gaV.configuration.title" = "Incorrectpl";
+"9no-21-gaV.configuration.title" = "Pomylka";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9no-21-gaV"; */
-"9no-21-gaV.normalTitle" = "Buttonpl";
-
-/* Class = "UILabel"; text = "Login"; ObjectID = "Ecf-43-wxF"; */
-"Ecf-43-wxF.text" = "Loginpl";
-
-/* Class = "UILabel"; text = "Daily Reminder"; ObjectID = "I5Y-hA-0xb"; */
-"I5Y-hA-0xb.text" = "Daily Reminderpl";
-
-/* Class = "UILabel"; text = "To Translated word"; ObjectID = "IzC-IB-ZUa"; */
-"IzC-IB-ZUa.text" = "To Translated wordpl";
-
-/* Class = "UIButton"; configuration.title = "Manage Cards"; ObjectID = "JoV-P3-srx"; */
-"JoV-P3-srx.configuration.title" = "Manage Cardspl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JoV-P3-srx"; */
-"JoV-P3-srx.normalTitle" = "Buttonpl";
-
-/* Class = "UILabel"; text = "toTranslateLabel"; ObjectID = "PGg-b2-XLR"; */
-"PGg-b2-XLR.text" = "toTranslateLabelpl";
-
-/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "QdT-fm-iiU"; */
-"QdT-fm-iiU.configuration.title" = "Submitpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QdT-fm-iiU"; */
-"QdT-fm-iiU.normalTitle" = "Buttonpl";
-
-/* Class = "UILabel"; text = "ToTranslate"; ObjectID = "R5P-rM-1PJ"; */
-"R5P-rM-1PJ.text" = "ToTranslatepl";
-
-/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "Rs3-E4-aLc"; */
-"Rs3-E4-aLc.configuration.title" = "Backpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rs3-E4-aLc"; */
-"Rs3-E4-aLc.normalTitle" = "Buttonpl";
-
-/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "T5l-Xe-dg7"; */
-"T5l-Xe-dg7.configuration.title" = "Loginpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T5l-Xe-dg7"; */
-"T5l-Xe-dg7.normalTitle" = "Buttonpl";
-
-/* Class = "UILabel"; text = "Password"; ObjectID = "TJZ-bl-DtC"; */
-"TJZ-bl-DtC.text" = "Passwordpl";
-
-/* Class = "UIButton"; configuration.title = "Delete"; ObjectID = "Ugd-fk-Bjr"; */
-"Ugd-fk-Bjr.configuration.title" = "Deletepl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ugd-fk-Bjr"; */
-"Ugd-fk-Bjr.normalTitle" = "Buttonpl";
-
-/* Class = "UILabel"; text = "translatedLabel"; ObjectID = "Uwa-vf-wbE"; */
-"Uwa-vf-wbE.text" = "translatedLabelpl";
-
-/* Class = "UIButton"; configuration.title = "Correct"; ObjectID = "VTD-yl-527"; */
-"VTD-yl-527.configuration.title" = "Correctpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VTD-yl-527"; */
-"VTD-yl-527.normalTitle" = "Buttonpl";
-
-/* Class = "UIButton"; configuration.title = "ManageAccounts"; ObjectID = "XNh-8v-fKV"; */
-"XNh-8v-fKV.configuration.title" = "ManageAccountspl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XNh-8v-fKV"; */
-"XNh-8v-fKV.normalTitle" = "Buttonpl";
-
-/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "Y4N-E3-xe1"; */
-"Y4N-E3-xe1.configuration.title" = "Registerpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y4N-E3-xe1"; */
-"Y4N-E3-xe1.normalTitle" = "Buttonpl";
-
-/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "YFR-TO-CRy"; */
-"YFR-TO-CRy.configuration.title" = "Submitpl";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YFR-TO-CRy"; */
-"YFR-TO-CRy.normalTitle" = "Buttonpl";
+"9no-21-gaV.normalTitle" = "Przycisk";
 
 /* Class = "UILabel"; text = "Password"; ObjectID = "ar0-5P-Zkl"; */
-"ar0-5P-Zkl.text" = "Passwordpl";
+"ar0-5P-Zkl.text" = "Haslo";
 
 /* Class = "UICommand"; title = "Item 2"; ObjectID = "chZ-mx-dKq"; */
-"chZ-mx-dKq.title" = "Item 2pl";
+"chZ-mx-dKq.title" = "Przedmiot 2";
 
 /* Class = "UILabel"; text = "Translated word"; ObjectID = "diu-U8-AZE"; */
-"diu-U8-AZE.text" = "Translated wordpl";
+"diu-U8-AZE.text" = "Przetłumaczone slowo";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Ecf-43-wxF"; */
+"Ecf-43-wxF.text" = "Login";
+
+/* Class = "UIButton"; configuration.title = "Photo"; ObjectID = "eGP-PE-lcO"; */
+"eGP-PE-lcO.configuration.title" = "Zdjecie";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eGP-PE-lcO"; */
+"eGP-PE-lcO.normalTitle" = "Przycisk";
 
 /* Class = "UIButton"; configuration.title = "Manage Account"; ObjectID = "g1q-k6-WKx"; */
-"g1q-k6-WKx.configuration.title" = "Manage Accountpl";
+"g1q-k6-WKx.configuration.title" = "Zarządzaj kontem";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g1q-k6-WKx"; */
-"g1q-k6-WKx.normalTitle" = "Buttopln";
+"g1q-k6-WKx.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "Daily Reminder"; ObjectID = "I5Y-hA-0xb"; */
+"I5Y-hA-0xb.text" = "Codzienne Przypomnienie";
 
 /* Class = "UIButton"; configuration.title = "Photo"; ObjectID = "iEe-15-gjs"; */
-"iEe-15-gjs.configuration.title" = "Photopl";
+"iEe-15-gjs.configuration.title" = "Zdjecie";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iEe-15-gjs"; */
-"iEe-15-gjs.normalTitle" = "Buttonpl";
+"iEe-15-gjs.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "Original word"; ObjectID = "IzC-IB-ZUa"; */
+"IzC-IB-ZUa.text" = "Oryginalne słowo";
+
+/* Class = "UIButton"; configuration.title = "Manage Cards"; ObjectID = "JoV-P3-srx"; */
+"JoV-P3-srx.configuration.title" = "Zarządzaj kartami";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JoV-P3-srx"; */
+"JoV-P3-srx.normalTitle" = "Przycisk";
 
 /* Class = "UILabel"; text = "userLabel"; ObjectID = "oBA-Cn-gTf"; */
-"oBA-Cn-gTf.text" = "userLabelpl";
+"oBA-Cn-gTf.text" = "uzytownikLabel";
 
 /* Class = "UIButton"; configuration.title = "Delete"; ObjectID = "p9j-Pn-yzA"; */
-"p9j-Pn-yzA.configuration.title" = "Deletepl";
+"p9j-Pn-yzA.configuration.title" = "Usun";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "p9j-Pn-yzA"; */
-"p9j-Pn-yzA.normalTitle" = "Buttonpl";
+"p9j-Pn-yzA.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "Original word Label"; ObjectID = "PGg-b2-XLR"; */
+"PGg-b2-XLR.text" = "Oryginalne słowo Label";
+
+/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "QdT-fm-iiU"; */
+"QdT-fm-iiU.configuration.title" = "Zapisz";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QdT-fm-iiU"; */
+"QdT-fm-iiU.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "Original word"; ObjectID = "R5P-rM-1PJ"; */
+"R5P-rM-1PJ.text" = "Oryginalne slowo";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "Rs3-E4-aLc"; */
+"Rs3-E4-aLc.configuration.title" = "Cofnij";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rs3-E4-aLc"; */
+"Rs3-E4-aLc.normalTitle" = "Przycisk";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rZg-aT-UT0"; */
-"rZg-aT-UT0.normalTitle" = "Buttonpl";
+"rZg-aT-UT0.normalTitle" = "Przycisk";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "T5l-Xe-dg7"; */
+"T5l-Xe-dg7.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T5l-Xe-dg7"; */
+"T5l-Xe-dg7.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "TJZ-bl-DtC"; */
+"TJZ-bl-DtC.text" = "Haslo";
+
+/* Class = "UIButton"; configuration.title = "Delete"; ObjectID = "Ugd-fk-Bjr"; */
+"Ugd-fk-Bjr.configuration.title" = "Usun";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ugd-fk-Bjr"; */
+"Ugd-fk-Bjr.normalTitle" = "Przycisk";
+
+/* Class = "UILabel"; text = "translatedLabel"; ObjectID = "Uwa-vf-wbE"; */
+"Uwa-vf-wbE.text" = "Tłumaczenie Label";
+
+/* Class = "UIButton"; configuration.title = "Correct"; ObjectID = "VTD-yl-527"; */
+"VTD-yl-527.configuration.title" = "Poprawnie";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VTD-yl-527"; */
+"VTD-yl-527.normalTitle" = "Przycisk";
+
+/* Class = "UIButton"; configuration.title = "Manage Accounts"; ObjectID = "XNh-8v-fKV"; */
+"XNh-8v-fKV.configuration.title" = "Zarządzaj kontami";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XNh-8v-fKV"; */
+"XNh-8v-fKV.normalTitle" = "Przycisk";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "Y4N-E3-xe1"; */
+"Y4N-E3-xe1.configuration.title" = "Zarejestruj";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y4N-E3-xe1"; */
+"Y4N-E3-xe1.normalTitle" = "Przycisk";
+
+/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "YFR-TO-CRy"; */
+"YFR-TO-CRy.configuration.title" = "Zapisz";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YFR-TO-CRy"; */
+"YFR-TO-CRy.normalTitle" = "Przycisk";
+
